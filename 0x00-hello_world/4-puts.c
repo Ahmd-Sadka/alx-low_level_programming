@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-*main - hello c
-*return alaeays zero (sucess)
+*main - task description
+*return alawys 0 (success)
 */
 int main(void)
 {
