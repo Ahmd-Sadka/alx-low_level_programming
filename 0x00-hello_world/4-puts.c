@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - task description
- * return: 0 (success)
+ * main -  C program that prints a line
+ * Return: 0 (success)
  */
 int main(void)
 {
