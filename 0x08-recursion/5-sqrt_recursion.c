@@ -6,7 +6,6 @@
  * @val: initial
  * Return: int
  */
-int sqrt(int y, int val);
 
 int sqrt(int y, int val)
 {
