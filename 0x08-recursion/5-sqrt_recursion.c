@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sqrt - returns square root
+ * sqrt2 - returns square root
  * @y: int
  * @val: initial
  * Return: int
