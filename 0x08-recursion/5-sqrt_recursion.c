@@ -7,12 +7,12 @@
  * Return: int
  */
 
-int sqrt(int y, int val)
+int sqrt2(int y, int val)
 {
 if (val * val == y)
 	return (y);
 else if (val * val < y)
-	return (sqrt(y, val + 1));
+	return (sqrt2(y, val + 1));
 else
 	return (-1);
 }
@@ -25,5 +25,5 @@ else
 
 int _sqrt_recursion(int n)
 {
-return (sqrt(n, 1));
+return (sqrt2(n, 1));
 }
