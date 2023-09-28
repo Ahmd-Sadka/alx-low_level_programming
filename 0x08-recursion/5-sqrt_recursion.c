@@ -11,10 +11,9 @@ int sqrt2(int y, int val)
 {
 if (val * val == y)
 	return (y);
-else if (val * val < y)
-	return (sqrt2(y, val + 1));
-else
+else if (val * val > y)
 	return (-1);
+	return (sqrt2(y, val + 1));
 }
 
 /**
