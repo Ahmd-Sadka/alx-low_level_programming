@@ -10,7 +10,7 @@
 int sqrt2(int y, int val)
 {
 if (val * val == y)
-	return (y);
+	return (val);
 else if (val * val < y)
 	return (sqrt2(y, val + 1));
 else
