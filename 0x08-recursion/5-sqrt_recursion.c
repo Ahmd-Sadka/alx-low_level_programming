@@ -13,6 +13,7 @@ if (val * val == y)
 	return (y);
 else if (val * val > y)
 	return (-1);
+else
 	return (sqrt2(y, val + 1));
 }
 
