@@ -9,24 +9,21 @@
 
 int *array_range(int min, int max)
 {
-	int *nemo;
+	int *b;
 	int i, j = 0;
 
 	if (min > max)
 		return (NULL);
-
-	nemo = malloc(sizeof(*nemo) * ((max - main) + 1));
-
-	if (nemo == NULL)
-		return (NULL);
-
-	else
+	block = malloc(sizeof(*b) * ((max - min) + 1));
+	if (b != NULL)
 	{
 		for (i = min; i <= max; i++)
 		{
-			nemo[j] = i;
+			b[j] = i;
 			j++;
 		}
-		return (nemo);
+		return (b);
 	}
+	else
+		return (NULL);
 }
