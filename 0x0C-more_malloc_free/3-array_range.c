@@ -22,7 +22,7 @@ int *array_range(int min, int max)
 
 	else
 	{
-		for (i = min; i < max; i++)
+		for (i = min; i <= max; i++)
 		{
 			nemo[j] = i;
 			j++;
