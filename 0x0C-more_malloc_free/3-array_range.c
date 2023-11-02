@@ -15,7 +15,7 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 
-	nemo = malloc(sizeof(nemo) * ((max - main) + 1));
+	nemo = malloc(sizeof(*nemo) * ((max - main) + 1));
 
 	if (nemo == NULL)
 		return (NULL);
