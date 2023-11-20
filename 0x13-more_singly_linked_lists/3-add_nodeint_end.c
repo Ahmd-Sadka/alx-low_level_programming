@@ -10,7 +10,7 @@
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 
-	list_t *new_node, *tmp;
+	listint_t *new_node, *tmp;
 
 	if (head == NULL)
 		return (NULL);
