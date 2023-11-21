@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- *sum_listint - sum of listint
+ *sum_listint - sum of listint sum of all the data (n)
  *
  *@head: first node
  *
- *Retrun: sum or 0
+ *Return: sum or 0
  */
 
 int sum_listint(listint_t *head)
